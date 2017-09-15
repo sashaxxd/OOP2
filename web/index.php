@@ -3,6 +3,15 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 
 
-$obj2 = new App\app\App();
-echo '<br>';
-$obj2->getJak();
+
+
+
+$paypal = new \App\app\PaymentSystems\PayPal();
+$webmoney = new \App\app\PaymentSystems\Webmoney();
+
+
+$payment = new \App\app\PaymentService();
+
+$payment->payment($webmoney);
+
+
