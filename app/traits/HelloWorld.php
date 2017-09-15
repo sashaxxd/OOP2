@@ -8,7 +8,10 @@
 namespace App\app\traits;
 
 
-trait HelloWorld
+trait HelloWorld //Трайт только хранит объект создать нельзя
 {
+    public function Hello(){
+        echo 'Hello';
+    }
 
 }
