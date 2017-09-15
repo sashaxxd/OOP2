@@ -1,0 +1,20 @@
+{
+    "name": "groop/mm",
+    "description": "lessons",
+    "type": "no",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alex",
+            "email": "sashaxxd@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": ""
+        }
+    }
+
+}
